@@ -1,16 +1,35 @@
 /* Estilo del body con imagen de fondo */
 body {
-    background-image: url('gray.jpg'); /* Asegúrate de que 'imagen.jpg' esté en la misma carpeta que el HTML */
+    background-image: url('Pan-Banner.jpg'); /* Asegúrate de que 'imagen.jpg' esté en la misma carpeta que el HTML */
     background-size: cover; /* La imagen cubrirá toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    height: 100vh; /* Asegúrate de que el cuerpo tenga altura para que la imagen sea visible */
+    height: 0vh; /* Asegúrate de que el cuerpo tenga altura para que la imagen sea visible */
     margin: 0; /* Elimina los márgenes por defecto */
     padding: 0; /* Elimina el padding por defecto */
 }
 
 /* Estilo del h1 */
 #welcome {
+    color: #F4CE14;
+    font-size: 70px;
+    text-align: left;
+    margin-top: none; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
+
+#Pancolombia{
+color: #efeee9;
+font-size: 70px;
+text-align: left;
+margin-top: none;
+font-family: 'Anton', sans-serif;
+font-weight: 10;
+}
+
+#Inicio {
     color: #F4CE14;
     font-size: 36px;
     text-align: center;
@@ -21,5 +40,73 @@ body {
 }
 
 
-  
 
+#Productos {
+    color: #F4CE14;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
+
+#Nosotros {
+    color: #F4CE14;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
+
+#Contactanos {
+    color: #F4CE14;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
+
+nav {
+    position: absolute; /* Posicionar la lista en la parte superior */
+    top: 20px; /* Ajustar la distancia desde la parte superior */
+    right: 20px; /* Alinear a la derecha */
+    background-color: black; /* Fondo negro */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra difusa de lado a lado */
+    display: flex; /* Usar flexbox para la alineación horizontal */
+    gap: 15px; /* Espacio entre los elementos */
+    justify-content: flex-end; /* Alinear los elementos a la derecha */
+    width: auto; /* Ajustar el ancho según el contenido */
+}
+
+nav h3 {
+    margin: 0; /* Eliminar margen por defecto */
+    color: white; /* Color del texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra para efecto 3D */
+}
+
+nav h3 a {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+nav h3:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+
+p{
+    color: hsl(30, 6%, 7%);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
