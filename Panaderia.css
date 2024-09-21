@@ -1,0 +1,25 @@
+/* Estilo del body con imagen de fondo */
+body {
+    background-image: url('gray.jpg'); /* Asegúrate de que 'imagen.jpg' esté en la misma carpeta que el HTML */
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegúrate de que el cuerpo tenga altura para que la imagen sea visible */
+    margin: 0; /* Elimina los márgenes por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+/* Estilo del h1 */
+#welcome {
+    color: #F4CE14;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px; /* Añade margen para que no se pegue al borde superior */
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+  
+
