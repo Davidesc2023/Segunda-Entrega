@@ -1,0 +1,44 @@
+/* Estilos generales para el header */
+header {
+    display: flex;
+    justify-content: space-between; /* Distribuye el icono a la izquierda y el menú a la derecha */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    position: fixed; /* Hace que el menú se quede fijo en la parte superior al hacer scroll */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo para la imagen del ícono */
+.icono {
+    width: 50px; /* Tamaño del ícono */
+}
+
+/* Estilos para el menú */
+nav ul.menu {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos del menú */
+}
+
+nav ul.menu li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    color: #007BFF; /* Efecto hover */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 100px 20px; /* Ajusta el espacio de las secciones */
+    margin-top: 80px; /* Evita que el contenido se superponga con el menú fijo */
+}
