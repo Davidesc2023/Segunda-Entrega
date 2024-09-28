@@ -1,10 +1,15 @@
+
+body{
+
+    background-color: #181818;
+}
 /* Estilos generales para el header */
 header {
     display: flex;
     justify-content: space-between; /* Distribuye el icono a la izquierda y el menú a la derecha */
     align-items: center; /* Alinea verticalmente los elementos */
     padding: 10px 20px;
-    background-color: #f4f4f4;
+    background-color:#1f1f1f;
     position: fixed; /* Hace que el menú se quede fijo en la parte superior al hacer scroll */
     width: 100%;
     top: 0;
@@ -22,19 +27,19 @@ nav ul.menu {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Espacio entre los elementos del menú */
+    gap: 10px; /* Espacio entre los elementos del menú */
 }
 
 nav ul.menu li a {
     text-decoration: none; /* Quita el subrayado */
-    color: #333;
-    font-size: 18px;
-    padding: 10px;
+    color: #eae2e2;
+    font-size: 15px;
+    padding: 30px;
     transition: color 0.3s ease;
 }
 
 nav ul.menu li a:hover {
-    color: #007BFF; /* Efecto hover */
+    color: #888326; /* Efecto hover */
 }
 
 /* Estilos para las secciones */
@@ -42,3 +47,76 @@ section {
     padding: 100px 20px; /* Ajusta el espacio de las secciones */
     margin-top: 80px; /* Evita que el contenido se superponga con el menú fijo */
 }
+/* Estilos para la sección de inicio */
+#inicio {
+    display: flex;
+    justify-content: space-between; /* Distribuye el texto a la izquierda y la imagen a la derecha */
+    align-items: center;
+    padding: 100px 20px;
+}
+
+#titulo {
+    font-size: 800px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: left; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+#slogan {
+    font-size: 50px;
+    color: #fff; /* Color blanco para el eslogan */
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+/* Estilos para la sección que contiene la imagen y el contenido */
+.section-inicio {
+    position: relative; /* Para que los hijos se posicionen relativos a esta sección */
+    width: 100%;
+    height: 800px; /* Ajusta según el tamaño deseado */
+    overflow: hidden; /* Para que nada se salga del contenedor */
+  }
+  
+  /* Estilos para la imagen */
+  #inicio-img {
+    position: absolute; /* La imagen se posiciona de forma absoluta dentro del contenedor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* La imagen cubre toda la altura de la sección */
+    object-fit: cover; /* Hace que la imagen cubra todo el área sin distorsionarse */
+    z-index: 1; /* La imagen queda detrás del contenido */
+    opacity: 0.7; /* Opción para hacer la imagen semi-transparente */
+    border-radius: 15px; /* Bordes redondeados, ajusta el valor según lo necesites */
+    box-shadow: 0 4px 8px rgba(24, 24, 24, 0.5); /* Sombra con color #181818 */
+  }
+  
+  /* Estilos para el contenido encima de la imagen */
+  .content {
+    position: absolute; /* Se posiciona de manera absoluta dentro de la sección */
+    top: 50%; /* Centra el contenido verticalmente */
+    left: 20px; /* Alinea el contenido a la izquierda */
+    transform: translateY(-50%); /* Ajusta la posición para centrar verticalmente */
+    z-index: 2; /* Asegura que el contenido esté encima de la imagen */
+    color: white; /* Color del texto para que contraste con la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  /* Estilos para el título */
+  #titulo {
+    font-size: 2.5em; /* Tamaño del título */
+    margin: 0;
+  }
+  
+  /* Estilos para el eslogan */
+  #slogan {
+    font-size: 1.5em; /* Tamaño del eslogan */
+    margin-top: 10px;
+  }
+    
+  
