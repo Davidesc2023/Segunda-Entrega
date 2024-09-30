@@ -197,3 +197,122 @@ section {
     font-weight: 400;
     font-style: normal;
     }
+
+    /* Estilos para el contenedor de la cuadrícula */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Hace que las tarjetas se ajusten automáticamente */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para cada tarjeta (card) */
+.card {
+    background-color: #1f1f1f; /* Color de fondo de las tarjetas */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    text-align: center; /* Centra el contenido */
+    color: #eae2e2; /* Color del texto */
+}
+
+/* Estilos para la imagen del producto */
+.card img {
+    width: 100%; /* Imagen ocupa todo el ancho de la tarjeta */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el título del producto */
+.card h3 {
+    font-size: 24px;
+    color: #dd8335;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Estilos para la descripción */
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el precio */
+.price {
+    font-size: 20px;
+    color: #888326; /* Color dorado para resaltar el precio */
+    margin-bottom: 15px;
+}
+
+/* Estilos para el botón de comprar */
+.buy-button {
+    background-color: #dd8335; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #888326; /* Cambia el color al hacer hover */
+}
+
+.contacto-seccion {
+    background-color: #fca311; /* Color naranja */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contacto-seccion h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .map-container {
+    margin-bottom: 20px;
+  }
+  
+  .formulario-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff
+  }
+  
+  .formulario-container input, 
+  .formulario-container textarea {
+    padding: 10px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  
+  .formulario-container button {
+    padding: 10px;
+    background-color: #14213d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario-container button:hover {
+    background-color: #fca311;
+    color: #14213d;
+  }
+  
+  .redes-sociales a img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  .informacion-contacto {
+    margin-top: 20px;
+    color: white;
+  }
+  
