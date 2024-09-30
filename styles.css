@@ -56,7 +56,7 @@ section {
 }
 
 #titulo {
-    font-size: 800px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-size: 400px; /* Ajusta el tamaño de la fuente según tus preferencias */
     font-weight: bold;
     color: #dd8335; /* Color del título */
     text-align: left; /* Alinea el título a la izquierda */
@@ -109,14 +109,91 @@ section {
   
   /* Estilos para el título */
   #titulo {
-    font-size: 2.5em; /* Tamaño del título */
+    font-size: 6.8em; /* Tamaño del título */
     margin: 0;
   }
   
   /* Estilos para el eslogan */
   #slogan {
-    font-size: 1.5em; /* Tamaño del eslogan */
+    font-size: 3.5em; /* Tamaño del eslogan */
     margin-top: 10px;
   }
     
-  
+  #tnos {
+    font-size: 100px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+    #vision {
+    font-size: 80px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    #pvis {
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #ffffff; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    #pmis {
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #ffffff; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+     #mision {
+    font-size: 80px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     }
+
+     #nuestros {
+    font-size: 100px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     }
+
+    #pnues {
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #ffffff; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    #con {
+    font-size: 100px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold;
+    color: #dd8335; /* Color del título */
+    text-align: center; /* Alinea el título a la izquierda */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
